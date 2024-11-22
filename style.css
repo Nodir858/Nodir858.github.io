@@ -1,0 +1,31 @@
+body{
+    background-color:skyblue;
+}
+h1{
+    color:purple;
+}
+h2{
+    color:purple;
+}
+.moods{
+    display: flex;
+    flex-direction: row;
+    width: 43em;
+    justify-content: space-around;
+}
+
+.happyMood{
+    object-fit: cover;
+}
+
+.sadMood{
+    object-fit: cover;
+}
+
+.happyMood-box{
+    text-align: center;
+}
+
+.sadMood-box{
+    text-align: center;
+}
